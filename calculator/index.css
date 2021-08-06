@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    display: inline-block;
+    align-items: center;
+    
+}
+.container #result{
+    height: 100px;
+    background-color: rgb(240, 231, 231);
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    text-align: left;
+    
+}
+.left .btn{
+    width: 32%;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.right .btn{
+    width: 48%;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.calculator{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.right{
+    width: 40%;
+}
+.left{
+    width: 60%;
+}
